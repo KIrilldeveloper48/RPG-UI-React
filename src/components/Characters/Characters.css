@@ -1,0 +1,20 @@
+.main__characters {
+  display: grid;
+  align-items: end;
+  justify-content: end;
+}
+
+.main__characters img {
+  height: 200px;
+}
+
+.characters__enemy {
+  margin-bottom: -20px;
+}
+
+.characters__wizard {
+  margin-bottom: -20px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}

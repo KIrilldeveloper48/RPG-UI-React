@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  background: whitesmoke;
+  border-radius: 2px;
+  font-family: 'Roboto', serif;
+  padding: 0.8em 2em;
+  cursor: pointer;
+  transition: box-shadow 1s ease, color 1s ease;
+  color: #767f80;
+  border: solid 2px #7f8c8d;
+}
+
+
+.btn:hover {
+  box-shadow: inset 0 0 0 2em #6a7677;
+  color: whitesmoke;
+}
+
+.btn:disabled {
+  box-shadow: inset 0 0 0 2em #60696a;
+  color: #c9c6c6;
+  cursor: auto;
+}
+
+.container {
+  font-family: 'Roboto', serif;
+  display: grid;
+  grid-template-rows: 8fr 2fr;
+  height: 100vh;
+}
+
+.main {
+  display: grid;
+  grid-row: 1 / 2;
+  background: url('../src/images/bg/BG-top.png') top left/cover repeat-x;
+
+}
+
+.footer {
+  display: grid;
+  grid-row: 2 / 3;
+  grid-template-columns: 1fr 2fr 1fr;
+  padding-bottom: 20px;
+  background: url('../src/images/bg/BG-bottom.png') bottom left/cover repeat-x;
+}
+
+.menu-btn {
+  grid-column: 3 / 4;
+  align-self: end;
+  justify-self: center;
+  font-size: 22px;
+}

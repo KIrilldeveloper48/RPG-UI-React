@@ -1,0 +1,78 @@
+.parameters__characteristics {
+  display: grid;
+  grid-row: 2/4;
+  grid-template-rows: 75% 25%;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 20px;
+}
+
+.parameters__characteristics h3 {
+  margin-top: 0;
+}
+
+.characteristics__all {
+  justify-self: start;
+}
+
+.characteristics__base,
+.characteristics__current {
+  justify-self: center;
+}
+
+.all-list,
+.base-list,
+.current-list {
+  padding: 0;
+  margin: 0;
+  grid-row: 1/2;
+}
+
+.all-list li,
+.base-list li,
+.current-list li {
+  list-style: none;
+  margin-top: 10px;
+  padding-top: 5px;
+
+  padding-bottom: 5px;
+  font-size: 18px;
+  border-bottom: 1px solid #000;
+  position: relative;
+}
+
+.base-list li,
+.current-list li {
+  text-align: center;
+  border: 1px solid black;
+  padding-top: 5px;
+}
+
+.current-list li {
+  color: green;
+  user-select: none;
+}
+
+.current-list span {
+  position: absolute;
+  right: -36px;
+
+  background-image: url('../../../images/icons/UI/add.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.characteristics__point {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  font-size: 18px;
+}
+
+.characteristics__point p span {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
