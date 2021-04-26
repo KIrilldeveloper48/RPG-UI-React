@@ -1,10 +1,10 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './App.css';
 import 'normalize.css'
 import Characters from './components/Characters/Characters';
 import Menu from './components/Menu/Menu';
 import { useDispatch, useSelector } from 'react-redux';
-import { calcStatCharacteristics, toggleMenuOpenedStatus } from './store/action';
+import { toggleMenuOpenedStatus } from './store/action';
 
 
 const App = () => {
