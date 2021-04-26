@@ -9,6 +9,9 @@ import stealthIcon from '../src/images/icons/skills/sight-disabled.svg'
 import smittenIcon from '../src/images/icons/skills/smitten.svg'
 import terrorIcon from '../src/images/icons/skills/terror.svg'
 
+export const PARAMS_POINT = 20;
+export const SKILL_POINT = 10;
+
 export const KEYS_CODE = {
   ARROW_RIGHT: 39,
   ARROW_LEFT: 37,
@@ -46,7 +49,6 @@ export const Parameters = {
   },
 }
 
-export const PARAMS_POINT = 20;
 
 export const Skills = {
   VISION: {
@@ -162,6 +164,5 @@ export const INITIAL_SKILLS_STATE = {
   ],
 }
 
-export const SKILL_POINT = 10;
 export const MAX_SKILL_LEVEL = 5;
 export const LEVELS_NAME = [`Нетренированный`, `Новичок`, `Ученик`, `Адепт`, `Эксперт`, `Мастер`]
